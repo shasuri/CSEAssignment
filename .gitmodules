@@ -1,0 +1,12 @@
+[submodule "3G2S/EngineerWriting"]
+	path = 3G2S/EngineerWriting
+	url = https://github.com/shasuri/EngineerWriting.git
+[submodule "3G2S/ComputerGraphics"]
+	path = 3G2S/ComputerGraphics
+	url = https://github.com/shasuri/ComputerGraphics.git
+[submodule "3G2S/Embedded_class"]
+	path = 3G2S/Embedded_class
+	url = https://github.com/shasuri/Embedded_class.git
+[submodule "3G2S/SoftwareEngineering"]
+	path = 3G2S/SoftwareEngineering
+	url = https://github.com/shasuri/SoftwareEngineering.git
