@@ -1,0 +1,44 @@
+DOM Property
+
+nodeType : 태그의 타입
+nodeValue : 태그 사이의 값
+childNodes
+firstChild
+lastChild
+
+insertBefore : 그전 자리에 태그를 추가
+replaceChild
+removeChild
+appendChild
+
+xpath
+
+AJAX
+Asynchronous JavaScript and XML
+이미지를 변경할때 변경된 이미지가 존재하는 페이지를 로딩하지 않고 이미지만 바꿈
+ex) 지도, 드래그하면 실시간으로 이미지를 로딩
+
+*same origin policy(SOP) : 클라이언트 기존통신하던 서버와 다른 서버에서 정보를 가져오면, 보안상 차단
+=> 기존 서버가 다른 서버에서 정보를 가져와 가공해서 클라이언트에 전송해야함
+
+asyncRequest = new XMLHttpRequest();
+asyncRequest.addEventListener(...);
+asyncRequest.open(...);
+asyncRequest.send(...);
+
+asyncRequest.readyState == 4
+asyncRequest.state == 200 // check request success or not
+// readyState
+// 0 : request not initailized
+// 1 : server connection established
+// 2 : request received
+// 3 : processing request
+// 4 : request finished and response is ready
+
+// state
+// 200 : OK
+// 404 : Not Found
+
+asyncRequest.statetext
+
+var data = JSON.parse(asyncRequest.responseText);

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Input ID</title>
+    </head>
+    
+    <body>
+        
+        <form id="inputForm" action="ident.php" method="post">
+            <label>이름:</label>
+            <input type = "text" id = "student_name" name = "name"><br>
+            
+            <label>학번:</label>
+            <input type = "text" id = "student_id" name = "ID" maxlength="9" minlength="9" pattern="[0-9]+"><br>
+           
+            <label>이메일:</label>
+            <input type = "email" id = "student_email" name = "e-mail"><br>
+           
+            <label>사진:</label>
+            <input type = "text" id = "student_photo" name = "photo"><br>
+
+            <input type = "submit" value = "신분증 생성">
+        </form>
+
+    </body>
+</html>

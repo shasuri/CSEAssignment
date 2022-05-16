@@ -1,0 +1,26 @@
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+
+public class TextAreaEx extends JFrame {
+    JTextArea ta = new JTextArea(1, 1);
+
+    TextAreaEx() {
+        setTitle("텍스트영역 만들기 예제");
+        ta.setEditable(false);
+        ta.append("hello");
+        ta.append("\n");
+        ta.append("world");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // Container c = getContentPane();
+        // c.setLayout(new FlowLayout());
+        add(new JScrollPane(ta));
+        setSize(300, 500);
+        setVisible(true);
+        setLocation(500, 500);
+    }
+
+    public static void main(String[] args) {
+        new TextAreaEx();
+    }
+}
